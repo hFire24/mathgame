@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  font-family: Futura XBlkCnIt BT, 'Bahnschrift Bold SemiCondensed', AvenirNextCondensed-HeavyItalic, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 25px;
+  background-color: hsl(92, 13%, 32%);
+  color: hsl(59, 22%, 87%);
+}
+
+.space {
+  margin-bottom: 0.5em;
+}
+
+#break {
+  font-size:75px;
+}
+
+.mathpad {
+  display:grid;
+  grid-template-columns:auto auto auto;
+  width: 30%;
+  margin:auto;
+  border: 1px solid #000;
+}
+
+.number {
+  font-family: Futura XBlk BT, AvenirNext-Heavy, 'Arial Black', sans-serif;
+}
+
+.mathpad .number {
+  border: 1px solid #000;
+}
+
+td {
+  padding: 7px;
+  font-size: 30px;
+}
+
+a {
+  color: hsl(59, 22%, 87%);
+}
+
+@media only screen and (max-width: 1135px) {
+  body {
+    font-size: 30px;
+  }
+
+  #break, .mathpad {
+    font-size: 44px;
+  }
+
+  .mathpad {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  body {
+    font-size: 20px;
+  }
+  
+  #break, .mathpad {
+    font-size: 30px;
+  }
+
+  .mathpad {
+    width: 50%;
+  }
+}
